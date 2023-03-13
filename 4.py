@@ -10,7 +10,7 @@ while a > 0:
 
     elif a == c:
         c = a
-        b = 0
+        b += 0
         a = int(input())
 
     elif a < c:
@@ -19,11 +19,3 @@ while a > 0:
         a = int(input()) 
 
 print(b)
-
-
-#    1   2
-#    7   5
-#    7   8
-#    9   1
-#    1   3
-#    0   0
