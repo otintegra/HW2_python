@@ -1,11 +1,7 @@
 a = int(input())
-b = 1
+b = 0
 c = 0
-
 while a > 0: 
-
-
-
     
     if a > c: 
         c = a
@@ -19,7 +15,7 @@ while a > 0:
 
     elif a < c:
         c = a
-        b += 1
+        b = 1
         a = int(input()) 
 
 print(b)
